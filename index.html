@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div.red.green-text::before {
+        content: "sdlfj";
+        background-color: red;
+        color: green;
+      }
+      #blue {
+        background-color: blue;
+      }
+      p {
+        color: black;
+        /* This is an example of a comment */
+      }
+
+      li:nth-child(2n) {
+        color: aquamarine;
+      }
+
+      input:focus {
+        margin: 50px;
+      }
+
+      [data-red*="44"] {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red green-text">
+      <p style="border-style: solid">Test writing more</p>
+      <br />
+    </div>
+    <p
+      id="blue"
+      style="border-style: dotted; border-color: blue; border-width: 10px"
+    >
+      testing how dotted looks
+    </p>
+    <br />
+    <p style="border-style: groove; border-top: 10px">
+      Another test example of a border with groove
+    </p>
+
+    <div data-red="1234">Test div</div>
+
+    <div>
+      <h1 style="background-color: aquamarine; text-align: center">
+        Within a DIV
+      </h1>
+    </div>
+
+    <ul>
+      <li>1</li>
+      <li class="list-counter">2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+
+    <input type="checkbox" />
+  </body>
+</html>

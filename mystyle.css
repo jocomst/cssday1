@@ -1,0 +1,30 @@
+#title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.table {
+  border: solid 2px green;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.table tr:nth-child(even) {
+  background-color: beige;
+}
+
+.table th {
+  background-color: bisque;
+}
+
+.table td {
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  color: green;
+}
+
+p:hover {
+  background-color: bisque;
+}
